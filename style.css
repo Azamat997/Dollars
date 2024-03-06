@@ -1,0 +1,43 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner{
+    margin: 0 auto;
+    padding: 35px;
+
+}
+
+form{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-image: url('./img/dollar-bills-background-pile-american-money-cash-one-hundred-usd-dollars-banknotes_661495-12228.jpg');
+}
+
+.result{
+    text-align: center;
+    color: orangered;
+}
+
+.btn{
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: orangered;
+
+}
+
+.btn:hover{
+    background-color: #04AA6D; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
